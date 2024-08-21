@@ -1,0 +1,8 @@
+[package]
+name = "test-gettext"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gettext-rs = { version = "0.7.0", features = ["gettext-system"] }
+
